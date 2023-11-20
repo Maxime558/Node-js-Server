@@ -2,7 +2,7 @@ const express = require('express')
 const http = require('http')
 const app = express()
 
-const host = '127.0.0.1';
+const host = '172.20.64.98';
 const port = '8000';
 
 app.use(express.static('public'));
